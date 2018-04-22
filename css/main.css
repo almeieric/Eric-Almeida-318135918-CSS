@@ -1,0 +1,41 @@
+*{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ box-sizing: border-box;
+ text-align: justify right;
+}
+
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: justify right;
+  
+}
+.svg {
+ flex: 50%;
+  
+}
+.text {
+  flex: 50%;
+  width: 50%;
+  height: 100%;  
+  font-size: 20px;  
+  text-align: justify right;  
+  font-family: "Times New Roman", Times, serif;
+
+  border: 1px solid
+ 
+}
+main {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 1 auto;
+}
+
+#ex3 {
+	width: 30%;
+	height: auto;
+	padding: 8px;
+	margin: 5px;
+}
