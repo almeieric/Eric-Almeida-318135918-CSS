@@ -3,7 +3,8 @@
  padding: 0;
  border: 0;
  box-sizing: border-box;
- text-align: justify right;
+ text-align: justify;
+
 }
 body {
 	background: radial-gradient(#E4ABAB, #D86363,  #790909); 
@@ -12,4 +13,32 @@ header {
 	color:white;
 
 
+}
+.ex3 {
+	background-color: #f7ffe6;
+	margin: 5px 5px;
+	border-radius: 10px; 
+}
+.svg {
+	background: linear-gradient(to right, blue , yellow);
+	border-radius: 25px;
+}
+.text-justify {
+	border-radius: 25px;
+	border: 5px solid white;
+}
+footer {
+	background: linear-gradient(to right, #ccebff , #ccff66); 
+	height: 200px;
+}
+
+.ex3:hover {
+
+	font-style: underline;
+	margin: 10px 20px;
+	border-radius: 10px; 
+	width: 150%;
+}
+h1, h2 {
+	 text-align:  center;
 }
