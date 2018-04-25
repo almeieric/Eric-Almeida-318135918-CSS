@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <head>
-	<title></title>
+	<title>Exercicio CSS</title>
 </head>
 <body>
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,23 +14,26 @@
       <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/12036989_1051855881532101_4195502239175280374_n.jpg?_nc_cat=0&oh=99b41fe9acad4caa5e9f767b38aade70&oe=5B5E8ED1" width="30" height="30" class="rounded-circle" alt=""> 
      Eric Almeida/318135918
   </a>
-  <a class="navbar-brand" href="#">Barra de Navegação</a>
+  <a class="navbar-brand" href="#"></a>
  
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Exercicio 3</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Layouts 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://codepen.io/almeieric/pen/mxmBXm">Layout 1</a>
+          <a class="dropdown-item" href="https://codepen.io/almeieric/pen/VXWwbM">Layout 2</a>
+          <a class="dropdown-item" href="https://codepen.io/almeieric/pen/WzONKV">Layout 3</a>
+          <a class="dropdown-item" href="https://codepen.io/almeieric/pen/GxOKLp">Layout 4</a>
+        </div>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="#">Exercicio 4</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Exercicio 5</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Exercicio 6</a>
+        <a class="nav-link" href="exercicio_cores.html">Lista Cores</a>
       </li>      
     </ul>
 
@@ -38,46 +41,99 @@
   <header>
    <div class='container-fluid'>
    	<div class="d-inline-flex p-2">
-    <div class='svg'>
-    <img src="img/eric.svg" width="500" height="500" alt="">
+     <div class='svg'>
+    <img src="img/Uni.svg" width="500" height="500" alt="">
    </div>
-     <div class="text-justify">
+      <div class="text-justify text-center">
   <h1>SVG</h1>
   <p> SVG é a abreviatura de Scalable Vector Graphics que pode ser traduzido do inglês como gráficos vetoriais escaláveis. Trata-se de uma linguagem XML para descrever de forma vetorial desenhos e gráficos bidimensionais, quer de forma estática, quer dinâmica ou animada.</p> 
+      </div>
      </div>
-     </div>
-    </div>
+   </div>
      </header>
   <main>
-    <div class="flex-xl-row p-2 justify-content-lg-center">
+    <div class=" d-flex flex-column p-2 align-content-center">
+       <div class="d-flex flex-xl-row">
+        <div class="ex3 col flex-fill">
     <a href="https://codepen.io/almeieric/pen/XqJoar">
-    	<img src="img\a.svg" class="img-fluid" width="33%" height="200" alt="Responsive image">
-    	
+    	<img src="img\a.svg" class="img-fluid"  height="200" alt="Responsive image">
+
     </a>
+    <h2>Exercicio A</h2>
+    <p>Pagina Sign UP</p>
+        </div>
+        <div class="ex3 col flex-fill">
     <a href="https://codepen.io/almeieric/pen/yjYaOj">
-    	<img src="img\b.svg" class="img-fluid" width="33%" height="200" alt="Responsive image">
+    	<img src="img\b.svg" class="img-fluid"  height="200" alt="Responsive image">
     	
     </a>
+    <h2>Exercicio B</h2>
+    <p>Pagina Search</p>
+        </div>
+        <div class="ex3 col flex-fill">
     <a href="https://codepen.io/almeieric/pen/deYOKJ">
-    	<img src="img\c.svg" class="img-fluid" width="33%" height="200" alt="Responsive image">
-    	
+    	<img src="img\c.svg" class="img-fluid" height="200" alt="Responsive image">
+    
     </a>
+    <h2>Exercicio C</h2>
+    <p>Pagina Pricing</p>
+        </div>
+      </div>
+      <div class="d-flex flex-xl-row">
+        <div class="ex3 col flex-fill">
     <a href="https://codepen.io/almeieric/pen/zjvaVZ">
-    	<img src="img\d.svg" class="img-fluid" width="33%" height="200" alt="Responsive image">
+    	<img src="img\d.svg" class="img-fluid" height="200" alt="Responsive image">
     	
     </a>
+    <h2>Exercicio D</h2>
+    <p>Pagina Contact</p>
+        </div>
+        <div class="ex3 col flex-fill">
     <a href="https://codepen.io/almeieric/pen/rvOZYo">
-    	<img src="img\e.svg" class="img-fluid" width="33%" height="200" alt="Responsive image">
+    	<img src="img\e.svg" class="img-fluid"  height="200" alt="Responsive image">
     	
     </a>
+    <h2>Exercicio E</h2>
+    <p>Pagina Weather</p>    
+        </div>
+        <div class="ex3 col flex-fill">
+
     <a href="https://codepen.io/almeieric/pen/vjLRVP">
-    	<img src="img\f.svg" class="img-fluid" width="33%" height="200" alt="Responsive image">
+    	<img src="img\f.svg" class="img-fluid" height="200" alt="Responsive image">
     	
     </a>
+    <h2>Exercicio F</h2>
+    <p>Pagina Form</p>   
+         </div> 
+        </div>
+      </div>
     </div>
   </main>
   <footer>
+<div class="d-flex flex-xl-row">
+  <div class="col flex-fill">
+    <h2>HTML</h2>
+    <p>é uma linguagem usada para desenvolver websites que significa Linguagen de Marcação de Hypertexto. </p>
 
+        </div>
+        <div class="col flex-fill">
+
+    <h2>CSS</h2>
+    <p>É uma linguagem utilizada para definir a aparência dos documentos que utilizam linguagem de marcação</p>
+        </div>
+       <div class="col flex-fill">
+
+    </a>
+    <h2>JAVASCRIPT</h2>
+    <p>É uma linguagem de programação utilizada para controlar o HTML e o CSS para manipular o comportamento na página</p>
+        </div>
+       <div class="col flex-fill">
+
+    </a>
+    <h2>JSON</h2>
+    <p>É um formato de troca de dados entre sistemas independente de linguagem de programação derivado do JavaScript</p>
+        </div>        
+      </div>
   </footer>
 
 </body>
