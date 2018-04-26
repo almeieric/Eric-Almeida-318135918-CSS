@@ -22,6 +22,7 @@ header {
 .svg {
 	background: linear-gradient(to right, blue , yellow);
 	border-radius: 25px;
+
 }
 .text-justify {
 	border-radius: 25px;
@@ -29,15 +30,10 @@ header {
 }
 footer {
 	background: linear-gradient(to right, #ccebff , #ccff66); 
-	height: 200px;
+
 }
 
-.ex3:hover {
 
-	font-style: underline;
-	margin: 10px 20px;
-	border-radius: 10px; 
-	width: 150%;
 }
 h1, h2 {
 	 text-align:  center;
